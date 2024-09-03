@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity5">
+
+
+    <Button
+        android:id="@+id/cadastroUsuario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Cadastro Usuario"
+        android:layout_marginTop="100dp"/>
+
+    <Button
+        android:id="@+id/listarUsuarios"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Listar Usuarios"
+        android:layout_marginTop="200dp"/>
+
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/listarDispositivos"
+        android:text="Listar Dispositivos"
+        android:layout_gravity="center"
+        android:layout_marginTop="200dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/cadastrarDispositivos"
+        android:text="Cadastrar Dispositivo"
+        android:layout_gravity="center"
+        android:layout_marginTop="400dp"/>
+
+
+
+    <EditText
+        android:id="@+id/textUsuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:text="Usuários"
+        android:textAlignment="center"
+        android:editable="false"
+        android:layout_gravity="center_horizontal"
+        android:textColorHighlight="@color/design_default_color_primary_variant"/>
+
+    <EditText
+        android:id="@+id/textDispositivo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:text="Dispositivos"
+        android:textAlignment="center"
+        android:editable="false"
+        android:layout_gravity="center"
+        android:textColorHighlight="@color/design_default_color_primary_variant"/>
+
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
